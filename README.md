@@ -1,10 +1,18 @@
-kurento-hello-world
-===================
+# README
 
-Kurento Node.js Tutorial: Hello World (WebRTC in loopback).
+To run and try recording:
 
-Running this tutorial
----------------------
+```(bash)
+./run_docker.sh
+npm install
+npm start
+```
 
-In order to run this tutorial, please read the following [instructions](https://kurento.openvidu.io/docs/current/tutorials/node/tutorial-helloworld.html)
+* Go to [https://localhost:8443](https://localhost:8443)
+* Accept unsafe ssl key (locally signed)
+* Click 'Start'
+* Accept using mic and camera
+* Click 'Stop'
+* Check contents of './tmp'
+
 
